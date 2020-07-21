@@ -1,0 +1,147 @@
+/* This Css files include the Css for main of index.html page.*/
+body{
+  font-size: 1.2em;
+  font-family: 'Nunito', sans-serif;
+    
+}
+
+/* Header CSS */
+.navigation-bar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding : 0.1em 1em; */
+  margin: 0.5em;
+  color: black;
+  
+}
+
+/* Css for the navigation bar */
+.navigation-box{
+  display: flex;
+}
+.nav-section{
+    width:fit-content;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+    margin: 0.5em;
+    border-radius: 0.5em;
+    display: grid;
+    grid-template-columns: 25fr 25fr 25fr 25fr;
+    grid-gap: 1.5em;
+    color: black;
+}
+.nav-element {
+    width: 100%;
+    padding: 0.25em 0.5em;
+    color: black;
+    font-size: 1.2em;
+    font-family: 'Nunito', sans-serif;
+}
+.nav-option{
+    border-radius: 0.5em; 
+    height: 3em;
+    background-color:#E10600 ;
+    border: 0ch;
+    opacity: 90%;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+}
+.logo{
+  width: 10em;
+  margin-left: 2em;
+}
+.header-frame{
+  width: auto;
+  margin: 2em 1em;
+}
+.title{
+  margin-left: 2em;
+  color: #E10600;
+}
+.ticket{
+  width: 60em;
+  margin: 1em 4em;
+}
+.map{
+  width: 65em;
+  margin: 2em;
+}
+.range{
+  margin: 2em;
+}
+.footer-image{
+  width: auto;
+}
+/* Footer Css */
+.container-footer{
+  background-color:#5A5A5A;
+  display: grid;
+  grid-template-columns: 16.67% 16.67% 16.67% 16.67% 16.67% 16.67%;
+  align-items: flex-start;
+  margin-bottom: 0em;
+  padding: 0em 2em;
+}
+.footer-logo{
+  align-items: center;
+  padding: 1em;
+  margin: 1em;
+}
+.footer-elements{
+  margin: 1em;
+}
+footer a{
+  text-decoration: none;
+  color:white;
+  font-family:Montserrat ;
+}
+.social-link{
+  width: 2em;
+}
+.bottom-footer{
+  display: flex;
+  padding:0em 2em;
+  background-color: #141A2E;
+  justify-content: space-between;
+  margin:0em;
+  color: white;
+}
+.item-inline{
+  display: inline;  
+}
+.cpyrght{
+  color: white;
+  margin-top: 1em;
+}
+/* Form */
+/* Style the form - display items horizontally */
+.form-inline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+/* Add some margins for each label */
+.form-inline label {
+  margin: 5px 10px 5px 65px;
+}
+
+/* Style the input fields */
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+/* Style the submit button */
+.form-inline button {
+  padding: 10px 20px;
+  margin: 1em 30em;
+  background-color: #E10600;
+  border: 1px solid #ddd;
+  color: white;
+}
+
+.form-inline button:hover {
+  background-color: rgb(223, 107, 103);
+}
